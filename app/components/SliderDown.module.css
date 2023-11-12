@@ -1,0 +1,31 @@
+@keyframes infiniteScroll {
+    from {transform: translateX(0)}
+    to {transform: translateX(-100%)}
+  }
+  .container {
+    width: 100%;
+    overflow: hidden;
+    transform: rotate(2deg);
+    margin-top: 6rem;
+  }
+  .hori {
+    display: flex;
+    font-size: 120px;
+    width: 2600px;
+    color: black;
+    animation-name: infiniteScroll;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  .hori2 {
+    font-weight: bold;
+    white-space: nowrap;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rbg(0 0 0 / 0.1); 
+  }
+
+  .colorCode {
+    color: #E0AF6A;
+  }

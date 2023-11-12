@@ -7,7 +7,8 @@ const Slider = () => {
       <div className={styles.container}>
         <div className={styles.hori}>
           <div className={styles.hori2}>
-            ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT
+            ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT 
+            ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT
           </div>
 
           <div className={styles.hori2}>

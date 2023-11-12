@@ -1,7 +1,8 @@
-import Image from 'next/image'
 import NavBar from './components/NavBar'
 import Hero from './components/Hero'
 import Slider from './components/Slider'
+import About from './components/About'
+import SliderDown from './components/SliderDown'
 
 export default function Home() {
   return (
@@ -9,6 +10,8 @@ export default function Home() {
     <NavBar />
     <Hero />
     <Slider />
+    <About />
+    <SliderDown />
    </>
   )
 }
