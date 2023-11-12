@@ -1,0 +1,21 @@
+@keyframes infiniteScroll {
+    from {transform: translateX(0)}
+    to {transform: translateX(-100%)}
+  }
+  .container {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .hori {
+    display: flex;
+    font-size: 120px;
+    width: 2600px;
+    color: black;
+    animation-name: infiniteScroll;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  .hori2 {
+    white-space: nowrap;
+  }
