@@ -3,6 +3,7 @@ import Hero from './components/Hero'
 import Slider from './components/Slider'
 import About from './components/About'
 import SliderDown from './components/SliderDown'
+import Technologies from './components/Technologies'
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
     <Slider />
     <About />
     <SliderDown />
+    <Technologies />
    </>
   )
 }
