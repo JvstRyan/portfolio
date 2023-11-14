@@ -9,7 +9,7 @@ const Technologies = () => {
                 <Image
                     src="/tech3d.svg"
                     alt="3d model"
-                    width={500}
+                    width={550}
                     height={500}
                     style={{marginLeft: '5rem', marginTop: '2rem'}}
                   />
@@ -24,7 +24,7 @@ const Technologies = () => {
                       style={{marginTop: '1rem'}}
                     />
                 </article>
-            <p className='py6 text-black'>Last year I was mostly using <b> HTML, CSS and Javascript </b>
+            <p className='py6 text-black sm:text-base/[26px]'>Last year I was mostly using <b> HTML, CSS and Javascript </b>
                for all my projects, but since then I have grown my frontend expertise out to all different kinds of <b>frameworks and libraries.</b> 
                I am honestly having a blast learning more and more about web development and look forward to learning a lot in the future. 
             </p>

@@ -5,8 +5,8 @@ import { ContactForm } from './ContactForm'
 
 const Contact = () => {
   return (
-    <section className="hero min-h-screen mt-20 ">
-        <article className="hero-content flex-col lg:flex-row-reverse sm:ml-16 sm:gap-28">
+    <section className="hero min-h-screen mt-20 flex justify-center items-center ">
+        <article className="hero-content flex-col lg:flex-row-reverse sm:gap-32">
             <article className=' flex justify-center items-center sm:-mr-20'>
                 <Image
                     src="/contact.svg"

@@ -11,26 +11,28 @@ const Hero = () => {
           <Image
             src="/3d.svg"
             alt="3d model"
-            width={500}
+            width={600}
             height={500}
-            style={{ marginTop: "1rem" }}
+            style={{ marginTop: "4rem" }}
           />
-          <article>
-            <h1 className=" text-3xl sm:text-5xl text-center sm:text-left text-black font-bold leading-tight">
+          <article className="sm:mt-16 flex flex-col items-center justify-center">
+            <h1 className=" text-4xl sm:text-6xl text-center sm:text-left sm:w-full text-black font-bold leading-tight">
               Passionate <br></br>{" "}
-              <span className="text-primary">Frontend Developer</span> <br></br>{" "}
-              Ready to Elevate <br></br>
+              <span className="text-primary">Frontend Developer</span> {""}
+              Ready to Elevate {""}
               <span className="text-secondary">Your Projects</span>
             </h1>
-            <p className="py-6 text-black text-sm text-center sm:text-left sm:text-base ">
+            <article className="flex flex-col items-center sm:items-start justify-center sm:w-full">
+            <p className="py-6 sm:w-full text-black text-sm text-center sm:text-left sm:text-base ">
               a <b>Frontend Developer & UX Designer based</b> in NL <br></br>
               Specialized in Frontend Development, Designing <br></br>
               and watching Anime.
             </p>
-            <button className="btn btn-secondary  text-white btn-wide sm:btn-md  ml-8 sm:ml-0 sm:w-40">
+            <button className="btn btn-secondary text-white btn-wide   sm:w-44 ">
               Get in touch
               <BsArrowRight />
             </button>
+            </article>
           </article>
         </article>
       </section>
