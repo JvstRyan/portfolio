@@ -4,9 +4,9 @@ import Image from 'next/image'
 
 const About = () => {
   return (
-    <section className="hero min-h-screen mt-20 ">
+    <section id="about" className="hero min-h-screen mt-20 ">
         <article className="hero-content flex-col gap-x-40 lg:flex-row-reverse md:ml-20 md:mr-20">
-          <article className="">
+          <article>
             <h1 className=" text-3xl sm:text-5xl text-center sm:text-left text-black font-bold leading-tight">
               WHO AM I?
             </h1>
@@ -17,10 +17,12 @@ const About = () => {
             <br></br> <br></br>Want to talk about <b> web development, fitness or games?</b>
 
             </p>
+            <a href='#contact'>
             <button className="btn btn-secondary  sm:ml-0 text-white  sm:btn-md text-center">
               Get in touch
               <BsArrowRight />
             </button>
+            </a>
           </article>
           <Image
             src="/about.svg"

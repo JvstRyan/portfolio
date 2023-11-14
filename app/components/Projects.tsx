@@ -5,7 +5,7 @@ import Image from 'next/image'
 const Projects = () => {
   return (
     <>
-    <section className="hero min-h-screen mt-20 ">
+    <section id='projects' className="hero min-h-screen mt-20 ">
         <article className="hero-content flex-col gap-10 lg:flex-row-reverse">
            <Image 
            src='/portfolio.svg'
@@ -23,9 +23,11 @@ const Projects = () => {
                     <li>EmailJs,</li>
                     <li>Figma</li>
                    </ul>
-                   <p className='text-black text-base w-86'>I created this portfolio to showcase what my skills that I&apos;ve built up so far. I am looking forward to showcasing more of my projects.</p>
+                   <p className='text-black text-base w-86'>I created this portfolio to showcase my skills that I&apos;ve built up so far. I am looking forward to showcasing more of my projects.</p>
                    <article className="flex gap-2 mt-3">
-                        <button className='btn  btn-primary'>Github</button>
+                         <a href='https://github.com/JvstRyan?tab=repositories'>
+                            <button className='btn btn-primary'>Github</button>
+                        </a>
                         <button className='btn  btn-outline btn-secondary'>Live site</button>
                    </article>
                 </article>
@@ -51,7 +53,9 @@ const Projects = () => {
                    </ul>
                    <p className='text-black text-base w-86'>So far I haven&apos;t made huge projects yet, for smaller projects check out my github. I am busy creating 2 big projects and will be showcasing them here when they are done.</p>
                    <article className="flex gap-2 mt-3">
-                        <button className='btn  btn-primary'>Github</button>
+                        <a href='https://github.com/JvstRyan?tab=repositories'>
+                            <button className='btn  btn-primary'>Github</button>
+                        </a>
                         <button className='btn  btn-outline btn-secondary'>Live site</button>
                    </article>
                 </article>

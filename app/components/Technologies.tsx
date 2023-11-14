@@ -3,7 +3,7 @@ import Image from 'next/image'
 const Technologies = () => {
   return (
     <>
-    <section className="hero min-h-screen mt-20 ">
+    <section id='tech' className="hero min-h-screen mt-20 ">
         <article className="hero-content flex-col lg:flex-row-reverse sm:ml-16 sm:gap-28">
             <article className=' flex justify-center items-center sm:-mr-20'>
                 <Image

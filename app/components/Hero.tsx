@@ -28,10 +28,12 @@ const Hero = () => {
               Specialized in Frontend Development, Designing <br></br>
               and watching Anime.
             </p>
+            <a href='#contact'>
             <button className="btn btn-secondary text-white btn-wide   sm:w-44 ">
               Get in touch
               <BsArrowRight />
             </button>
+            </a>
             </article>
           </article>
         </article>
