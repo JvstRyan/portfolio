@@ -6,6 +6,8 @@ import SliderDown from './components/SliderTech'
 import Technologies from './components/Technologies'
 import Projects from './components/Projects'
 import SliderProjects from './components/SliderProjects'
+import SlidingContact from './components/SlidingContact'
+import Contact from './components/Contact'
 
 export default function Home() {
   return (
@@ -18,6 +20,8 @@ export default function Home() {
     <Technologies />
     <SliderProjects />
     <Projects />
+    <SlidingContact />
+    <Contact />
    </>
   )
 }
