@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './SliderDown.module.css'
+import styles from './SliderTech.module.css'
 
 const SliderDown = () => {
   return (
