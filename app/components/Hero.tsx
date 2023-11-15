@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <>
       <section className="hero min-h-screen 2xl:-mt-20">
-        <article className="hero-content flex-col lg:flex-row-reverse md:ml-28 sm:gap-28 ">
+        <article className="hero-content flex-col lg:flex-row-reverse flex justify-center items-center sm:ml-28 sm:gap-16 ">
           <Image
             src="/3d.svg"
             alt="3d model"
@@ -16,9 +16,9 @@ const Hero = () => {
             style={{ marginTop: "4rem" }}
           />
           <article className="sm:mt-16 flex flex-col items-center justify-center">
-            <h1 className=" text-4xl sm:text-6xl text-center sm:text-left sm:w-full text-black font-bold leading-tight">
-              Passionate <br></br>{" "}
-              <span className="text-primary">Frontend Developer</span> {""}
+            <h1 className=" text-4xl sm:text-6xl text-center sm:text-left sm:w-full text-black font-bold">
+              Passionate <br></br>
+              <span className="text-primary">Frontend Developer</span> <br></br>
               Ready to Elevate <br></br>
               <span className="text-secondary">Your Projects</span>
             </h1>

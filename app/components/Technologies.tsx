@@ -24,9 +24,9 @@ const Technologies = () => {
                       style={{marginTop: '1rem'}}
                     />
                 </article>
-            <p className='py6 text-black sm:text-base/[26px]'>Last year I was mostly using <b> HTML, CSS and Javascript </b>
-               for all my projects, but since then I have grown my frontend expertise out to all different kinds of <b>frameworks and libraries.</b> 
-               I am honestly having a blast learning more and more about web development and look forward to learning a lot in the future. 
+            <p className='py6 text-black sm:text-base/[26px]'>Last year I was mostly using <b> HTML, CSS and JavaScript </b>
+               for all my projects, but since then I have grown my frontend expertise out to all different kinds of <b>frameworks and libraries. </b> 
+                I am honestly having a blast learning more and more about web development and look forward to learning a lot in the future. 
             </p>
            </article>
         </article>
