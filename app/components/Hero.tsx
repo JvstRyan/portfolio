@@ -19,7 +19,7 @@ const Hero = () => {
             <h1 className=" text-4xl sm:text-6xl text-center sm:text-left sm:w-full text-black font-bold leading-tight">
               Passionate <br></br>{" "}
               <span className="text-primary">Frontend Developer</span> {""}
-              Ready to Elevate {""}
+              Ready to Elevate <br></br>
               <span className="text-secondary">Your Projects</span>
             </h1>
             <article className="flex flex-col items-center sm:items-start justify-center sm:w-full">
