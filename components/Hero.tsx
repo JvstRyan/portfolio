@@ -6,7 +6,7 @@ import { BsArrowRight } from "react-icons/bs";
 const Hero = () => {
   return (
     <>
-      <section className="hero min-h-screen 2xl:-mt-20">
+      <section className="hero min-h-screen">
         <article className="hero-content flex-col lg:flex-row-reverse flex justify-center items-center sm:ml-28 sm:gap-16 ">
           <Image
             src="/3d.svg"
