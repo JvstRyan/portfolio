@@ -8,7 +8,7 @@ const Projects = () => {
     <section id='projects' className="hero min-h-screen mt-20 ">
         <article className="hero-content flex-col gap-10 lg:flex-row-reverse">
            <Image 
-           src='/portfolio.svg'
+           src='/portfolio.png'
            alt='portfolio showcase'
            width={750}
            height={700}

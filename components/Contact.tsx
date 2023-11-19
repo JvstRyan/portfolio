@@ -9,7 +9,7 @@ const Contact = () => {
         <article className="hero-content flex-col lg:flex-row-reverse sm:gap-32">
             <article className=' flex justify-center items-center sm:-mr-20'>
                 <Image
-                    src="/contact.svg"
+                    src="/contact.png"
                     alt="3d model"
                     width={500}
                     height={500}

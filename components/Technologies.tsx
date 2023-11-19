@@ -7,7 +7,7 @@ const Technologies = () => {
         <article className="hero-content flex-col lg:flex-row-reverse sm:ml-16 sm:gap-28">
             <article className=' flex justify-center items-center sm:-mr-20'>
                 <Image
-                    src="/tech3d.svg"
+                    src="/tech3d.png"
                     alt="3d model"
                     width={550}
                     height={500}
@@ -17,7 +17,7 @@ const Technologies = () => {
           <article className="flex justify-center items-center flex-col gap-10 sm:w-1/3 ">
                 <article className='justify-center items-center sm:flex-row md:flex lg:flex gap-2'>
                     <Image
-                      src="/tech.svg"
+                      src="/tech.png"
                       alt="3d model"
                       width={500}
                       height={200}
