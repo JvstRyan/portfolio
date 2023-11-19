@@ -35,18 +35,21 @@ export const ContactForm = () => {
         <span>Message has been sent!</span>
       </div>}
       <input
+        required
         placeholder="Enter your name"
         type="text"
         name="user_name"
         className="input input-primary w-80 sm:w-96 text-black"
       />
       <input
+        required
         placeholder="Enter your email"
         type="email"
         name="user_email"
         className="input input-primary w-80 sm:w-96 text-black"
       />
       <textarea
+        required
         className="textarea h-40 textarea-primary text-black w-80 sm:w-96"
         name="message"
       />
