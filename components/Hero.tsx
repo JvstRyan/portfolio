@@ -9,7 +9,7 @@ const Hero = () => {
       <section className="hero min-h-screen">
         <article className="hero-content flex-col lg:flex-row-reverse flex justify-center items-center sm:ml-28 sm:gap-16 ">
           <Image
-            src="/3d.jpg"
+            src="/3d.svg"
             alt="3d model"
             width={600}
             height={500}
