@@ -1,4 +1,4 @@
-import styles from './SliderTech.module.css'
+import styles from '../tech/SliderTech.module.css'
 
 const SlidingContact = () => {
   return (

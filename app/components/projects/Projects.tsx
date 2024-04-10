@@ -8,10 +8,11 @@ const Projects = () => {
     <section id='projects' className="hero min-h-screen mt-20 ">
         <article className="hero-content flex-col gap-10 lg:flex-row-reverse">
            <Image 
-           src='/portfolio.png'
+           src='/portfolio.svg'
            alt='portfolio showcase'
            width={750}
            height={700}
+           draggable={false}
            />
           <article className="flex flex-col gap-10 sm:w-1/3 sm:-mt-32 ">
                 <article className='flex flex-col items-start gap-5'>
@@ -41,6 +42,7 @@ const Projects = () => {
            alt='placeholder'
            width={750}
            height={700}
+           draggable={false}
            />
           <article className="flex flex-col gap-10  sm:-mt-32 ">
                 <article className='flex flex-col items-start gap-5'>

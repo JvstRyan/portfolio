@@ -1,8 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import { BsArrowRight } from "react-icons/bs";
-
-
 const Hero = () => {
   return (
     <>
@@ -14,25 +12,26 @@ const Hero = () => {
             width={600}
             height={500}
             style={{ marginTop: "4rem" }}
+            draggable={false}
           />
           <article className="sm:mt-16 flex flex-col items-center justify-center">
-            <h1 className=" text-4xl sm:text-6xl text-center sm:text-left sm:w-full text-black font-bold">
+            <h1 className=" mono text-4xl sm:text-6xl text-center sm:text-left sm:w-full text-black font-bold">
               Passionate <br></br>
               <span className="text-primary">Frontend Developer</span> <br></br>
-              Ready to Elevate <br></br>
+              Ready To Elevate <br></br>
               <span className="text-secondary">Your Projects</span>
             </h1>
             <article className="flex flex-col items-center sm:items-start justify-center sm:w-full">
-            <p className="py-6 sm:w-full text-black text-sm text-center sm:text-left sm:text-lg ">
-              a <b>Frontend Developer & UX Designer based</b> in NL. <br></br>
-              Specialized in Frontend Development and Design <br></br>
-            </p>
-            <a href='#contact'>
-            <button className="btn btn-secondary text-white btn-wide   sm:w-44 ">
-              Get in touch
-              <BsArrowRight />
-            </button>
-            </a>
+              <p className="py-6 sm:w-full text-black text-sm text-center sm:text-left sm:text-lg ">
+                a <b>Frontend Developer & UX Designer based</b> in NL. <br></br>
+                Specialized in Frontend Development and Design <br></br>
+              </p>
+              <a href="#contact">
+                <button className="btn btn-secondary text-white btn-wide   sm:w-44 ">
+                  Get in touch
+                  <BsArrowRight />
+                </button>
+              </a>
             </article>
           </article>
         </article>
