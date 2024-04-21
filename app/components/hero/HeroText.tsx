@@ -15,7 +15,7 @@ const HeroText = () => {
           duration: 1,
         }}
       >
-        <h1 className=" mono text-4xl sm:text-[55px] tracking-wide leading-[50px] text-center sm:text-left sm:w-full text-black font-bold">
+        <h1 className=" mono text-4xl sm:text-[55px] tracking-wide sm:leading-[50px] text-center sm:text-left sm:w-full text-black font-bold">
           Passionate<br></br>
           <span className="text-primary">frontend developer</span> <br></br>
         ready to elevate <br></br>

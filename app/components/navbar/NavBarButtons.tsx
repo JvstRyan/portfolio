@@ -1,5 +1,4 @@
 "use client";
-import Link from "next/link";
 import React from "react";
 import { BsArrowRight, BsGithub } from "react-icons/bs";
 import { ImLinkedin } from "react-icons/im";

@@ -1,7 +1,6 @@
 "use client";
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
-import { motion } from "framer-motion";
 
 export const ContactForm = () => {
   const form = useRef<HTMLFormElement>(null);

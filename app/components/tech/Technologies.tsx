@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import TechInfo from "./TechInfo";
 import TechImage from "./TechImage";
 
