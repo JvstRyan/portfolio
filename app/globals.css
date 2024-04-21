@@ -4,5 +4,17 @@
 
 body {
   overflow-x: hidden;
+  scroll-behavior: smooth;
   background-color: white;
+  -ms-overflow-style: none;  
+  scrollbar-width: none;  
 }
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+input:focus, textarea:focus {
+  outline: none !important;
+}
+

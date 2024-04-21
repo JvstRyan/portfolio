@@ -7,7 +7,7 @@ import { ImLinkedin } from "react-icons/im";
 const NavBarButtons = () => {
   return (
     <>
-      <ul className="flex-1 mr-10 gap-10 flex navbar-end font-xs font-semibold text-black">
+      <ul className=" text-md mr-10 gap-10 flex font-bold text-black">
         <button
           className="hidden lg:block"
           onClick={() =>

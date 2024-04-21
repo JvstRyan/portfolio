@@ -6,7 +6,8 @@
     width: 100%;
     overflow: hidden;
     transform: rotate(-3deg);
-    margin-top: 4rem;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
   }
   .hori {
     display: flex;
