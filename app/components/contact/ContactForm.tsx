@@ -30,16 +30,10 @@ export const ContactForm = () => {
   };
 
   return (
-    <motion.form
+    <form
       ref={form}
       onSubmit={sendEmail}
       className="flex flex-col justify-center items-center gap-8 mb-10 mt-8 sm:mt-16 text-black"
-      initial={{ x: -500 }}
-      whileInView={{ x: 0 }}
-      viewport={{ once: true }}
-      transition={{
-        duration: 1,
-      }}
     >
       {alert && (
         <div className="alert rounded border-none alert-success flex bg-primary">
@@ -85,6 +79,6 @@ export const ContactForm = () => {
       >
         Submit
       </button>
-    </motion.form>
+    </form>
   );
 };
