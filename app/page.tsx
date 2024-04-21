@@ -33,6 +33,7 @@ export default function Home() {
           description={item.description}
           github={item.github}
           site={item.site}
+          disabled={item.disabled}
         />
         
       ))}

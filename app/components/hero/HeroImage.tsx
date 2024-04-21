@@ -7,6 +7,7 @@ const HeroImage = () => {
   return (
     <>
      <motion.div
+     className="ml-10 sm:ml-0"
         initial={{ x: 500 }}
         animate={{ x: 0 }}
         transition={{

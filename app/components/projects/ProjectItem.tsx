@@ -11,6 +11,7 @@ const Projects = ({
   description,
   github,
   site,
+  disabled
 }: ProjectData) => {
   return (
     <>
@@ -40,7 +41,7 @@ const Projects = ({
                   <button className="btn btn-primary">Github</button>
                 </a>
                 <a href={site}>
-                  <button className="btn btn-secondary btn-outline">
+                  <button disabled={disabled} className="btn btn-secondary btn-outline">
                     Live Site
                   </button>
                 </a>

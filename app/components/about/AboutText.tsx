@@ -7,7 +7,7 @@ const AboutText = () => {
   return (
     <>
       <motion.div
-        className="flex flex-col py-6 sm:mt-10 text-black max-w-lg text-sm text-left sm:text-left sm:text-base gap-5 selection:bg-primary"
+        className="flex flex-col p-5 sm:p-0 py-6 sm:mt-16 text-black max-w-lg text-sm text-left sm:text-left sm:text-base gap-5 selection:bg-primary"
         initial={{ x: 500 }}
         whileInView={{ x: 0 }}
         viewport={{ once: true }}
