@@ -1,15 +1,16 @@
-import About from "@/app/components/about/About";
-import Contact from "@/app/components/contact/Contact";
-import Hero from "@/app/components/hero/Hero";
-import NavBar from "@/app/components/navbar/NavBar";
-import Projects from "@/app/components/projects/ProjectItem";
-import Slider from "@/app/components/about/SliderAbout";
-import SliderProjects from "@/app/components/projects/SliderProjects";
-import SliderDown from "@/app/components/tech/SliderTech";
-import SlidingContact from "@/app/components/contact/SlidingContact";
-import Technologies from "@/app/components/tech/Technologies";
 
-import projects from "./components/projects/project-data";
+import About from "@/components/about/About";
+import Slider from "@/components/about/SliderAbout";
+import Contact from "@/components/contact/Contact";
+import SlidingContact from "@/components/contact/SlidingContact";
+import Hero from "@/components/hero/Hero";
+import NavBar from "@/components/navbar/NavBar";
+import projects from "@/components/projects/project-data";
+import Projects from "@/components/projects/ProjectItem";
+import SliderProjects from "@/components/projects/SliderProjects";
+import SliderDown from "@/components/tech/SliderTech";
+import Technologies from "@/components/tech/Technologies";
+
 
 
 export default function Home() {

@@ -54,20 +54,21 @@ export const ContactForm = () => {
       )}
       <input
         required
-        placeholder="Enter your name"
+        placeholder="Full name"
         type="text"
         name="user_name"
         className="input input-primary w-80 sm:w-96 bg-white"
       />
       <input
         required
-        placeholder="Enter your email"
+        placeholder="Email address"
         type="email"
         name="user_email"
         className="input input-primary w-80 sm:w-96 bg-white"
       />
       <textarea
         required
+        placeholder="Leave a message...."
         className="textarea h-40 textarea-primary bg-white w-80 sm:w-96"
         name="message"
       />

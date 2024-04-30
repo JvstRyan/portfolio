@@ -62,7 +62,7 @@ const NavBarButtons = () => {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://github.com/JvstRyan?tab=repositories"
+            href="https://github.com/JvstRyan"
             className=""
           >
             <li>
