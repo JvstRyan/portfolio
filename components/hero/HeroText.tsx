@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React from "react";
 import HeroButton from "./HeroButton";
 import { motion } from "framer-motion";
@@ -6,19 +6,11 @@ import { motion } from "framer-motion";
 const HeroText = () => {
   return (
     <>
-      <motion.div 
-        className="sm:mt-16 flex flex-col items-center justify-center"
-        initial={{ x: -500 }}
-        animate={{ x: 0 }}
-        transition={{
-          type: "smooth",
-          duration: 1,
-        }}
-      >
+      <div className="sm:mt-16 flex flex-col items-center justify-center">
         <h1 className=" mono text-4xl sm:text-[55px] tracking-wide sm:leading-[50px] text-center sm:text-left sm:w-full text-black font-bold">
           Passionate<br></br>
           <span className="text-primary">frontend developer</span> <br></br>
-        ready to elevate <br></br>
+          ready to elevate <br></br>
           <span className="text-secondary">your projects.</span>
         </h1>
         <article className="flex flex-col items-center sm:items-start justify-center sm:w-full">
@@ -28,7 +20,7 @@ const HeroText = () => {
           </p>
           <HeroButton />
         </article>
-      </motion.div>
+      </div>
     </>
   );
 };

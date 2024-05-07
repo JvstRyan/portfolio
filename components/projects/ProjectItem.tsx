@@ -26,6 +26,7 @@ const Projects = ({
             width={750}
             height={700}
             draggable={false}
+            className="shadow-lg rounded-xl"
           />
           <article className="flex flex-col gap-10 sm:w-1/3 sm:-mt-32 ">
             <article className="flex flex-col items-start gap-5">

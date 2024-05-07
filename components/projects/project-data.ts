@@ -25,21 +25,28 @@ const projects: ProjectData[] =
     },
     {
     id: Math.random().toString(36).substring(2, 15), 
-    image: "/planit.svg", 
-    alt: "planit", 
-    title: "PLANIT", 
+    image: "/availi.svg", 
+    alt: "Availi", 
+    title: "AVAILI", 
     techstack: ["Typescript", "Next.js", "MaterialUI", "ASP.NET Core", "MS SQL"],
-    description: "PlanIt arose from the hours I spent creating schedules for members of the organization I am apart of. It took hours trying to gather all the availabilites, typing all the information I needed to work with and then finally creating the schedule. With Planit I now create a new survey and auto generate a schedule based on everyones availability",
-    github: "https://github.com/JvstRyan/planit", 
-    site: "https://github.com/JvstRyan/planit",
+    description: "Availi arose from the hours I spent creating schedules for members of the organization I am apart of. It took hours trying to gather all the availabilites, typing all the information I needed to work with and then finally creating the schedule. With Availi, I now create a new survey and auto generate a schedule based on everyones availability.",
+    github: "https://github.com/JvstRyan/Availi", 
+    site: "https://github.com/JvstRyan/Availi",
     disabled: true
     },
     {
-        id: Math.random().toString(36).substring(2, 15), image: "/portfolio.svg", alt: "portfolio showcase", title: "PORTFOLIO", techstack: ["Next.js", "Tailwind css", "DaisyUI", "EmailJs", "Figma"], 
-        description: "I created this portfolio to showcase my skills that I have built up so far. I am looking forward to showcasing more of my projects.",
-        github: "https://github.com/JvstRyan?tab=repositories", 
-        site: "https://www.ryanhorrmann.me/",
+        id: Math.random().toString(36).substring(2, 15), image: "/gamehub.svg", alt: "game-hub", title: "GAME HUB", techstack: ["React", "Typescript", "ChakraUI"], 
+        description: "Gamehub is a project I created while learning more about React and TypeScript. It's built upon the RAWG API and taught me a lot about how the frontend interacts with API requests.",
+        github: "https://github.com/JvstRyan/game-hub", 
+        site: "https://game-hub-lyart-nine.vercel.app/",
         disabled: false
+    },
+    {
+        id: Math.random().toString(36).substring(2, 15), image: "/icc.svg", alt: "icc", title: "ICC-REALM", techstack: ["Next.js", "Typescript", "Mantine"], 
+        description: "ICC is a startup incubated at Fontys. I had the opportunity to join their team and develop the admin panel for their cleaning platform.",
+        github: "https://github.com/JvstRyan/", 
+        site: "https://game-hub-lyart-nine.vercel.app/",
+        disabled: true
     }
 ]
 
