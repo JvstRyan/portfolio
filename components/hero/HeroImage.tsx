@@ -1,5 +1,4 @@
 "use client"
-import { motion } from "framer-motion";
 import React from "react";
 import Image from "next/image";
 
@@ -10,7 +9,7 @@ const HeroImage = () => {
      className="ml-10 sm:ml-0"
       >
       <Image
-        src="/heroo.svg"
+        src="/hero.webp"
         id="hero"
         alt="3d model"
         width={600}

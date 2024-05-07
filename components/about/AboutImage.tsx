@@ -5,7 +5,7 @@ const AboutImage = () => {
   return (
     <>
         <Image
-          src="/aboutt.svg"
+          src="/about.webp"
           alt="3d model"
           width={650}
           height={600}

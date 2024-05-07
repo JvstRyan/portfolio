@@ -7,7 +7,7 @@ const TechImage = () => {
     <>
       <article className="mr-28 sm:mr-0">
         <Image
-          src="/techh.svg"
+          src="/tech.webp"
           alt="3d model"
           width={550}
           height={500}
