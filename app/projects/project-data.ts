@@ -74,7 +74,7 @@ const projects: ProjectData[] = [
     video: '/gamehub.mp4',
     overview: "Gamehub is a project I created while learning more about React and TypeScript. It's built upon the RAWG API and taught me a lot about how the frontend interacts with API requests.",
     learned: "Gamehub was created while I was initially learning React and TypeScript in a course. It taught me a lot about API requests and how to share that data with different components. Additionally, this was the first project where I used a component library, which showed me that creating components from scratch wasn't necessary. At the time, this project was quite advanced for me. I also utilized React Query in this project, but it was only later, while reading the documentation while working on one of my personal projects, that I truly understood how it should be used. This project served as an eye-opener to the possibilities of React and TypeScript.",
-    technologies: ''
+    technologies: 'Typescript, React, ChakraUI, React Query, RAWG API'
   },
 ];
 
