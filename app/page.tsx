@@ -5,9 +5,9 @@ import Contact from "@/components/contact/Contact";
 import SlidingContact from "@/components/contact/SlidingContact";
 import Hero from "@/components/hero/Hero";
 import NavBar from "@/components/navbar/NavBar";
-import projects from "@/components/projects/project-data";
-import Projects from "@/components/projects/ProjectItem";
-import SliderProjects from "@/components/projects/SliderProjects";
+import projects from "@/app/projects/project-data";
+import Projects from "@/app/projects/ProjectItem";
+import SliderProjects from "@/app/projects/SliderProjects";
 import SliderDown from "@/components/tech/SliderTech";
 import Technologies from "@/components/tech/Technologies";
 

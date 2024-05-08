@@ -25,7 +25,8 @@ const config: Config = {
           "accent": "#E0AF6A",
           "tertiary": "#F6F6FF",
         }
-      }
+      }, 
+      "light"
     ]
   }
 }

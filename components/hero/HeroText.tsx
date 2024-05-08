@@ -1,7 +1,5 @@
-"use client";
 import React from "react";
 import HeroButton from "./HeroButton";
-import { motion } from "framer-motion";
 
 const HeroText = () => {
   return (
