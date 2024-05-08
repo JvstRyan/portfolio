@@ -12,12 +12,14 @@ const ProjectLayout: React.FC<ProjectLayoutProps> = ({ project }) => {
         <h1 className="text-5xl font-bold text-black">{project.title}</h1>
         <article className="flex gap-4">
           <a href={project.site} target="_blank">
-          <button className="btn btn-secondary text-white w-48">Live site</button>
+            <button className="btn btn-secondary text-white w-48">
+              Live site
+            </button>
           </a>
           <a href={project.github} target="">
-          <button className="btn btn-secondary">
-            <BsGithub color="white" fontSize="1.5rem" />
-          </button>
+            <button className="btn btn-secondary">
+              <BsGithub color="white" fontSize="1.5rem" />
+            </button>
           </a>
         </article>
       </nav>
@@ -39,25 +41,19 @@ const ProjectLayout: React.FC<ProjectLayoutProps> = ({ project }) => {
           <h2 className="font-bold text-start  text-xl md:text-4xl">
             Overview 📰
           </h2>
-          <p className="text-md xl:text-xl">
-            {project.overview}
-          </p>
+          <p className="text-md xl:text-xl">{project.overview}</p>
         </div>
         <div className="flex flex-col gap-4 mt-10 md:mt-24 text-black">
           <h2 className="font-bold text-start text-xl md:text-4xl">
             Lessons learned 💡
           </h2>
-          <p className="text-md xl:text-xl">
-            {project.learned}
-          </p>
+          <p className="text-md xl:text-xl">{project.learned}</p>
         </div>
         <div className="flex flex-col gap-4 mt-10 md:mt-24 text-black">
           <h2 className="font-bold text-start text-xl md:text-4xl">
             Technologies 💻
           </h2>
-          <p className="text-md xl:text-xl pb-20">
-            {project.technologies}
-          </p>
+          <p className="text-md xl:text-xl pb-20">{project.technologies}</p>
         </div>
       </article>
     </section>
