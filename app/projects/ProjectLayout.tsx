@@ -1,5 +1,7 @@
+
 import { ProjectData } from "./project-data";
 import { BsGithub } from "react-icons/bs";
+import ProjectVideo from "./ProjectVideo";
 
 interface ProjectLayoutProps {
   project: ProjectData;
@@ -24,17 +26,7 @@ const ProjectLayout: React.FC<ProjectLayoutProps> = ({ project }) => {
         </article>
       </nav>
       <article className="flex justify-center items-center mt-10 shadow-2xl">
-        <video
-          width="100%"
-          height="100%"
-          preload="none"
-          autoPlay
-          muted
-          poster={project.image}
-        >
-          <source src={project.video} type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+        <ProjectVideo project={project} />
       </article>
       <article className="flex flex-col mt-10 md:mt-24">
         <div className="flex flex-col gap-4 text-black">
