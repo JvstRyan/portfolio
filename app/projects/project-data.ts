@@ -18,7 +18,7 @@ export interface ProjectData {
 const projects: ProjectData[] = [
   {
     id: "neuronotes",
-    image: "/neuro.webp",
+    image: "/neuronotes.jpg",
     alt: "neuronotes",
     title: "NEURONOTES",
     techstack: ["React", "Typescript", "ChakraUI", "Node.js", "MongoDB"],
@@ -37,7 +37,7 @@ const projects: ProjectData[] = [
   },
   {
     id: "availi",
-    image: "/availi.webp",
+    image: "/availi.jpg",
     alt: "Availi",
     title: "AVAILI",
     techstack: [
@@ -62,7 +62,7 @@ const projects: ProjectData[] = [
   },
   {
     id: "gamehub",
-    image: "/gamehub.webp",
+    image: "/gamehub.jpg",
     alt: "game-hub",
     title: "GAME HUB",
     techstack: ["React", "Typescript", "ChakraUI"],
